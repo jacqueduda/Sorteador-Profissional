@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Random</title>
+
+</head>
+
+<body>
+
+    <img class="logo" src="./assets/3dados.png" alt="logo-de-dados">
+    <h1 class="texto">Vai Na Sorte</h1>
+    <h2 class="texto2">Sortear um Número</h2>
+
+    <div class="container">
+        <input class="input-box" placeholder="entre">
+        <input class="input-box2" placeholder="e">
+    </div>
+
+    <button onclick="generateNumber()">Sortear</button>
+
+    <section class="resultado">
+        <div class="relogios" id="relogio">
+            Carregando data e hora...
+        </div>
+    </section>
+
+      
+</body>
+  <script src="./script.js"></script>
+
+</html>
